@@ -5,7 +5,7 @@ library(corrplot)
 
 set.seed(123)
 
-df <- read.csv('C:/Users/ASUS/Desktop/DATA SCIENCE APU/AML/Assignment/dataset.csv', sep = ';')
+df <- read.csv('/salary-classification-r(dataset).csv', sep = ';')
 df[] <- lapply(df, trimws)
 
 num.var <- c('age', 'capitalgain', 'capitalloss', 'hoursperweek')
